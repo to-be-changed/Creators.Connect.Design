@@ -1,0 +1,47 @@
+{
+    "project": {
+        "id": "<project_id>",
+        "name": "<project_name>",
+        "description": "<project_description>",
+        "url": "<project_url>",
+        "createdAt": "<timestamp>",
+        "lastModifiedAt": "<timestamp>",
+        "users": [{
+            "id": "<user_id>",
+            "addedAt": "<timestamp>",
+            "isDependent": true
+        },
+        {
+            "id": "<user_id>",
+            "addedAt": "<timestamp>",
+            "isDependent": true
+        }],
+        "subProjects": [{
+            "id": "<project_id>"
+        },
+        {
+            "id": "<project_id>"
+        }],
+        "taskList": [{
+            "id": "<task_id>",
+            "createdAt": "<timestamp>",
+            "lastModifiedAt": "<timestamp>",
+            "users": [{
+                "id": "<user_id>",
+                "addedAt": "<timestamp>"
+            }],
+            "isArchived": true
+        },
+        {
+            "id": "<task_id>",
+            "createdAt": "<timestamp>",
+            "lastModifiedAt": "<timestamp>",
+            "users":[],
+            "isArchived": false
+        }],
+        "archive": {
+            "isArchived": false,
+            "archivedAt": "<timestamp>"
+        }
+    }
+}
