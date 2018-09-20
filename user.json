@@ -1,0 +1,11 @@
+{
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "dob": "mm/dd/yyyy",
+  "projectIds": ["id1", "id2"],
+  "reviewIds": ["id1, id2"],
+  "pastCollaboratorIds": ["id1", "id2"],
+  "links": ["soundcloud.com/my-link", "github.com/my-repo"],
+  "profilePictureUrl": "mypic.com",
+  "bio": "Bio"
+}
